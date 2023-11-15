@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import NextLink from 'next/link';
 import { Box, Typography, Unstable_Grid2 as Grid } from '@mui/material';
 import { Logo } from 'src/components/logo';
+import { LogoLogin } from 'src/components/logoLogin';
 
 // TODO: Change subtitle text
 
@@ -79,13 +80,13 @@ export const Layout = (props) => {
               }}
               variant="h1"
             >
-              Welcome to{' '}
+              Bem-vindo ao{' '}
               <Box
                 component="a"
                 sx={{ color: '#15B79E' }}
                 target="_blank"
               >
-                Devias Kit
+                CRAS
               </Box>
             </Typography>
             <Typography
@@ -93,12 +94,9 @@ export const Layout = (props) => {
               sx={{ mb: 3 }}
               variant="subtitle1"
             >
-              A professional kit that comes with ready-to-use MUI components.
+              Uma plataforma para o Centro de Referência de Assistência Social 
             </Typography>
-            <img
-              alt=""
-              src="/assets/auth-illustration.svg"
-            />
+              <LogoLogin /> 
           </Box>
         </Grid>
       </Grid>

@@ -103,7 +103,7 @@ const Page = () => {
                 color="text.secondary"
                 variant="body2"
               >
-                Don&apos;t have an account?
+                {/* Don&apos;t have an account?
                 &nbsp;
                 <Link
                   component={NextLink}
@@ -112,7 +112,7 @@ const Page = () => {
                   variant="subtitle2"
                 >
                   Register
-                </Link>
+                </Link> */}
               </Typography>
             </Stack>
             <Tabs
@@ -177,17 +177,17 @@ const Page = () => {
                   type="submit"
                   variant="contained"
                 >
-                  Continue
+                  Entrar
                 </Button>
-                <Button
+                {/* <Button
                   fullWidth
                   size="large"
                   sx={{ mt: 3 }}
                   onClick={handleSkip}
                 >
                   Skip authentication
-                </Button>
-                <Alert
+                </Button> */}
+                {/* <Alert
                   color="primary"
                   severity="info"
                   sx={{ mt: 3 }}
@@ -195,7 +195,7 @@ const Page = () => {
                   <div>
                     You can use <b>demo@devias.io</b> and password <b>Password123!</b>
                   </div>
-                </Alert>
+                </Alert> */}
               </form>
             )}
             {method === 'phoneNumber' && (

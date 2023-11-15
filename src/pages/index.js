@@ -17,7 +17,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Overview | Devias Kit
+        Plataforma Cras 
       </title>
     </Head>
     <Box
